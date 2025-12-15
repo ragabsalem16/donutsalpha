@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMEET DONUTS - دونات أنيقة ولذيذة</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Changa:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="https://i.postimg.cc/SQrQYyWS/1.jpg" alt="Logo"> Donuts Laos
+            </a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#menu">القائمة</a></li>
+                    <li><a href="#about">قصتنا</a></li>
+                    <li><a href="#contact">تواصل</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>دونات فاخرة.. <br>المذاق الرفيع في كل قضمة!</h1>
+            <a href="#menu" class="btn">اطلب الآن</a>
+        </div>
+    </section>
+
+    <section class="featured-new">
+        <div class="container">
+            <h2>🔥 منتجاتنا الأكثر طلباً</h2>
+            <div class="featured-grid">
+                <div class="featured-item" data-name="توت العليق والكريمة" data-price="25.00" data-id="feat-001">
+                    <img src="https://i.postimg.cc/50rhLRNt/3.jpg" alt="Blueberry Donut">
+                    <h3>توت العليق والكريمة</h3>
+                    <p style="font-size: 0.85em;">دونات التوت اللذيذة مع كريمة ناعمة وتوت طازج.</p>
+                    <a href="#" class="btn add-to-cart-btn">أضف إلى السلة</a>
+                </div>
+                <div class="featured-item" data-name="شوكولاتة ومكسرات" data-price="22.50" data-id="feat-002">
+                    <img src="https://i.postimg.cc/50rhLRNt/3.jpg" alt="Chocolate Nut Donut">
+                    <h3>شوكولاتة ومكسرات</h3>
+                    <p style="font-size: 0.85em;">جليز الشوكولاتة الداكنة الفاخرة مع المكسرات المقرمشة.</p>
+                    <a href="#" class="btn add-to-cart-btn">أضف إلى السلة</a>
+                </div>
+                <div class="featured-item" data-name="كيكة الليمون الصغيرة" data-price="35.00" data-id="feat-003">
+                    <img src="https://i.postimg.cc/HLqKL7Sv/5.jpg" alt="Pistachio Donut">
+                    <h3>كيكة الليمون الصغيرة</h3>
+                    <p style="font-size: 0.85em;">Mini Bundt Cake بالليمون والتوت - نكهة منعشة ورطبة.</p>
+                    <a href="#" class="btn add-to-cart-btn">أضف إلى السلة</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <h2 style="text-align: center; font-size: 2em; color: var(--text-dark);">قائمة منتجاتنا</h2>
+            <div class="menu-tabs">
+                <span class="tab active" data-filter="all"><i class="fas fa-dot-circle"></i> الكل</span>
+                <span class="tab" data-filter="featured"><i class="fas fa-star"></i> المميزة</span>
+                <span class="tab" data-filter="classic"><i class="fas fa-candy-cane"></i> كلاسيكية</span>
+                <span class="tab" data-filter="bakery"><i class="fas fa-bread-slice"></i> مخبوزات/حلويات</span>
+                <span class="tab" data-filter="drinks"><i class="fas fa-mug-hot"></i> مشروبات</span>
+                <span class="tab" data-filter="offers"><i class="fas fa-tag"></i> عروض</span>
+            </div>
+            <div class="menu-grid" id="menuGrid">
+
+                <div class="menu-item" data-category="classic" data-name="فراولة كلاسيك" data-price="12.00" data-id="menu-001">
+                    <img src="https://i.postimg.cc/sX1PGVX3/7.jpg" alt="Donut 1">
+                    <h4>فراولة كلاسيك (30 egp)</h4>
+                    <p>دونات تقليدية بصوص الفراولة.</p>
+                    <i class="fas fa-plus add-to-cart-icon"></i>
+                </div>
+
+                <div class="menu-item" data-category="classic" data-name="شوكولاتة بالحليب" data-price="10.00" data-id="menu-002">
+                    <img src="https://i.postimg.cc/JhXMrX37/8.jpg" alt="Donut 2">
+                    <h4>شوكولاتة بالحليب (40 egp)</h4>
+                    <p>غلايز شوكولاتة الحليب الناعمة.</p>
+                    <i class="fas fa-plus add-to-cart-icon"></i>
+                </div>
+                <div class="menu-item" data-category="classic" data-name="السكر والقرفة" data-price="8.00" data-id="menu-003">
+                    <img src="https://i.postimg.cc/T14457ff/9.jpg" alt="Donut 3">
+                    <h4>سكر وقرفة (35 egp)</h4>
+                    <p>المذاق الدافئ التقليدي.</p>
+                    <i class="fas fa-plus add-to-cart-icon"></i>
+                </div>
+                <div class="menu-item" data-category="classic" data-name="دونات لوتس " data-price="14.00" data-id="menu-004">
+                    <img src="https://i.postimg.cc/T3BMyPQH/22.jpg" alt="Donut 4">
+                    <h4>دونات لوتس نكهة رائعه (55 egp) </h4>
+                    <p>كريمه لوتس محشىيه </p>
+                    <i class="fas fa-plus add-to-cart-icon"></i>
+                </div>
+
+                <div class="menu-item" data-category="featured" data-name="زعفران وهيل " data-price="18.00" data-id="menu-005">
+                    <img src="https://i.postimg.cc/zDFWDbpf/10.jpg" alt="Donut 5">
+                    <h4>دونات الزعفران (45 egp)</h4>
+                    <p>محشوة بكريمة الزعفران والهيل.</p>
+                    <i class="fas fa-plus add-to-cart-icon"></i>
+                </div>
+                <div class="menu-item" data-category="featured" data-name="تيراميسو" data-price="20.00" data-id="menu-006">
+                    <img src="https://i.postimg.cc/fTb3wHVL/12.jpg" alt="Donut 6">
+                    <h4>تيراميسو (60 egp)</h4>
+                    <p>مغموسة بالقهوة وكريمة الماسكاربوني.</p>
+                    <i class="fas fa-plus add-to-cart-icon"></i>
+                </div>
+
+
+                <div class="menu-item" data-category="bakery" data-name="لفائف القرفة" data-price="15.00" data-id="menu-008">
+                    <img src="https://i.postimg.cc/CK4Yng22/13.jpg" alt="Cinnamon Roll">
+                    <h4>لفائف القرفة (56 egp)</h4>
+                    <p>بصوص الكريمة الغنية.</p>
+                    <i class="fas fa-plus add-to-cart-icon"></i>
+                </div>
+                <div class="menu-item" data-category="bakery" data-name="كرواسون اللوز" data-price="18.00" data-id="menu-009">
+                    <img src="https://i.postimg.cc/T3VvBxT1/14.jpg" alt="Croissant">
+                    <h4>كرواسون اللوز (49 egp)</h4>
+                    <p>محشو بكريمة اللوز ومغطى بالشرائح.</p>
+                    <i class="fas fa-plus add-to-cart-icon"></i>
+                </div>
+                <div class="menu-item" data-category="bakery" data-name="ساندويتش بسكويت" data-price="16.00" data-id="menu-010">
+                    <img src="https://i.postimg.cc/8CypnGbB/15.jpg" alt="Cookie Sandwich">
+                    <h4>ساندويتش بسكويت (39 egp)</h4>
+                    <p>بسكويت محشي بكريمة الشوكولاتة.</p>
+                    <i class="fas fa-plus add-to-cart-icon"></i>
+                </div>
+
+                <div class="menu-item" data-category="drinks" data-name="كولد برو متخصص" data-price="20.00" data-id="menu-011">
+                    <img src="https://i.postimg.cc/HnbCH1bK/16.jpg" alt="Cold Brew">
+                    <h4>كولد برو (69 egp)</h4>
+                    <p>مشروب قهوة بارد مخصص.</p>
+                    <i class="fas fa-plus add-to-cart-icon"></i>
+                </div>
+                <div class="menu-item" data-category="drinks" data-name="ماتشا لاتيه مثلج" data-price="24.00" data-id="menu-012">
+                    <img src=" https://i.postimg.cc/j2HBmQrp/17.jpg" alt="Matcha Latte">
+                    <h4>ماتشا لاتيه (39 egp)</h4>
+                    <p>مشروب ماتشا بارد ومنعش.</p>
+                    <i class="fas fa-plus add-to-cart-icon"></i>
+                </div>
+                <div class="menu-item" data-category="drinks" data-name="شوكولاتة ساخنة" data-price="18.00" data-id="menu-013">
+                    <img src="https://i.postimg.cc/rFgP4pym/18.jpg" alt="Hot Chocolate">
+                    <h4>شوكولاتة ساخنة (59 egp)</h4>
+                    <p>شوكولاتة داكنة غنية.</p>
+                    <i class="fas fa-plus add-to-cart-icon"></i>
+                </div>
+
+                <div class="menu-item" data-category="offers" data-name="صندوق الفطور" data-price="85.00" data-id="menu-014">
+                    <img src="https://i.postimg.cc/nrhwS80X/Chat-GPT-Image-Dec-12-2025-02-51-51-PM.png" alt="Breakfast Box">
+                    <h4>صندوق الفطور (150 egp)</h4>
+                    <p>6 دونات + 2 كرواسون + 2 كولد برو.</p>
+                    <i class="fas fa-plus add-to-cart-icon"></i>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="our-story" id="about">
+        <div class="container">
+            <h2>قصتنا: الشغف والجودة</h2>
+            <div class="story-content">
+                <div class="story-image">
+                    <img src="https://i.postimg.cc/Y9Yp2FH9/21.jpg" alt="Chef Image">
+                </div>
+                <div class="story-text">
+                    <h3>حكايتنا تبدا من ضحكتك </h3>
+                    <p>الخلاصة المختصرة للمتجر: نحن شغوفون بصنع الدونات الألذ والأكثر تميزاً، باستخدام مكونات طبيعية عالية الجودة لتقديم تجربة لا تُنسى في كل قضمة. بدأت فكرتنا من شغف لتقديم تحلية تجمع بين الأصالة والذوق الرفيع، لتكون كل قطعة فنية متكاملة.</p>
+                    <a href="#" class="btn" style="background-color: var(--accent-pink); color: var(--text-light); padding: 10px 25px; font-size: 0.9em;">اقرأ قصتنا بالكامل</a>
+
+                    <div class="story-people">
+                        <div class="story-person">
+                            <img src="https://i.postimg.cc/tTSzTsNP/44.jpg" alt="Person 1">
+                            <p>علياء (المؤسس)</p>
+                        </div>
+                        <div class="story-person">
+                            <img src="https://i.postimg.cc/yYXygpjK/90.jpg" alt="Person 2">
+                            <p>فهد (الشيف)</p>
+                        </div>
+                        <div class="story-person">
+                            <img src="https://i.postimg.cc/httTJDhX/80.jpg" alt="Person 3">
+                            <p>ريما (الجودة)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======= Cart Icon ======= -->
+    <div class="cart-icon-btn" id="cartBtn">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-badge" id="cartBadge">0</span>
+    </div>
+
+    <!-- ======= Cart Modal ======= -->
+    <div class="modal" id="cartModal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeCart">&times;</span>
+            <h3>السلة الخاصة بك</h3>
+            <div id="cartItems"></div>
+            <div class="cart-summary">
+
+                المجموع: <span id="cartTotal"> egp 0.00 </span>
+            </div>
+            <button class="btn" id="checkoutBtn">الدفع</button>
+        </div>
+    </div>
+
+    <!-- ======= Checkout Modal ======= -->
+    <div class="modal" id="checkoutModal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeCheckout">&times;</span>
+            <h3>بيانات الدفع</h3>
+
+            <div class="checkout-summary" id="checkoutSummary"></div>
+
+            <form id="checkoutForm" method="POST" action="https://submify.vercel.app/ragabsalem665@gmail.com">
+
+                <!-- الاسم -->
+                <div class="form-group">
+                    <label>الاسم:</label>
+                    <input type="text" name="name" required>
+                </div>
+
+                <!-- الهاتف -->
+                <div class="form-group">
+                    <label>رقم الهاتف:</label>
+                    <input type="text" name="phone" required>
+                </div>
+
+                <!-- العنوان -->
+                <div class="form-group">
+                    <label>العنوان:</label>
+                    <textarea name="address" rows="2" required></textarea>
+                </div>
+
+                <!-- طريقة الدفع -->
+                <div class="form-group">
+                    <label>طريقة الدفع:</label>
+                    <select name="payment_method" required>
+          <option value="كاش عند الاستلام">كاش عند الاستلام</option>
+          <option value="تحويل بنكي">تحويل بنكي</option>
+        </select>
+                </div>
+
+                <!-- ملخص الطلب (هيتبعت في الإيميل) -->
+                <input type="hidden" name="order_details" id="orderDetailsInput">
+
+                <button type="submit" class="btn">إتمام الطلب</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <!-- ======= Footer ======= -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <!-- Column 1: Contact Info & Map -->
+            <div class="footer-col">
+                <h4>تواصل معنا</h4>
+                <p><i class="fas fa-phone"></i> الهاتف: 01234567880</p>
+                <p><i class="fas fa-envelope"></i> البريد: ragabsalem@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> العنوان: مصر محافظه الاسكندريه برج العرب </p>
+
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.234567890123!2d29.967890123456789!3d31.200123456789012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f9e3f5c1234567%3A0x123456789abcdef0!2sBorg%20El%20Arab%2C%20Alexandria%2C%20Egypt!5e0!3m2!1sen!2seg!4v1700000000000!5m2!1sen!2seg"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- Column 2: Quick Links -->
+            <div class="footer-col">
+                <h4>روابط سريعة</h4>
+                <a href="#home"><i class="fas fa-home"></i> الرئيسية</a>
+                <a href="#menu"><i class="fas fa-utensils"></i> القائمة</a>
+                <a href="#about"><i class="fas fa-heart"></i> قصتنا</a>
+                <a href="#contact"><i class="fas fa-phone"></i> تواصل</a>
+                <div class="footer-section">
+                    <h4 style="margin-top: 30px;">أوقات العمل</h4>
+                    <p><i class="fas fa-clock"></i> السبت - الخميس: 8:00 ص - 12:00 ص</p>
+                    <p><i class="fas fa-clock"></i> الجمعة: 2:00 م - 12:00 ص</p>
+                </div>
+            </div>
+
+            <!-- Column 3: Social Media -->
+            <div class="footer-col">
+                <h4>تابعنا</h4>
+                <p>اشترك في صفحاتنا للاطلاع على أحدث العروض والمنتجات الجديدة</p>
+
+                <div class="social-icons">
+                    <a href="#" title="تابعنا على فيسبوك" aria-label="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" title="تابعنا على إنستغرام" aria-label="إنستغرام"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="تابعنا على تويتر" aria-label="تويتر"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="تابعنا على سناب شات" aria-label="سناب شات"><i class="fab fa-snapchat"></i></a>
+                </div>
+                <div class="newsletter">
+                    <h4 style="margin-top: 25px;">النشرة الإخبارية</h4>
+                    <p> احصل على خصم 15 % على اول طلي ليك</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="بريدك الإلكتروني" aria-label="بريدك الإلكتروني" />
+                        <button type="submit" title="اشتراك في النشرة الإخبارية" aria-label="اشتراك في النشرة الإخبارية"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="copyright">
+            <div class="container">
+                <p>&copy; 2025 SMEET DONUTS. جميع الحقوق محفوظة. | صُنع بـ <i class="fas fa-heart" style="color: var(--accent-pink);"></i> فى مصر </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ======= Scripts ======= -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
